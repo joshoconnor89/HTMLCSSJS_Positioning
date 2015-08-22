@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	background-color: yellow;
+	position: absolute;
+	top: 0;
+	left: 100px; 
+	
+}
+
+#inside01 {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	
+	/*larger the number, closer to you*/
+	z-index:101;
+	
+}
+
+#inside02 {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: relative;
+	top: 0px;
+	left: 40px;
+	z-index:100;
+}
+
+#outside {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: fixed;
+	top: 200px;
+	left: 500px;
+}
+	
+
+
